@@ -227,6 +227,32 @@ right: -90px;
 }
 
 
+/* latest deals section */
+.latest-img-container{
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+
+}
+.bg-div-1{
+background-image: linear-gradient(rgba(0,0,0,0.4)), url(../assets/deal-bloom.png);
+
+}
+.bg-div-2{
+
+background-image: linear-gradient(rgba(0,0,0,0.4)), url(../assets/deal-ana.png);
+
+
+
+}
+.bg-div-3{
+
+background-image: linear-gradient(rgba(0,0,0,0.4)), url(../assets/deal-zabo.png);
+
+
+
+}
 
 
 
