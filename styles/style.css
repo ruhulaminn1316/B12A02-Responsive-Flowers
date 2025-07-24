@@ -3,6 +3,10 @@
     margin: 0;
 
 }
+/* share color */
+.banner-span{
+color: #E95A08;
+}
 /* font-family---inter-font */
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -48,8 +52,265 @@ font-size: 700;
 .shop-about{
     color: #8987A1;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 .shoping-card{
     margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bannner section */
+.banner-section{
+    display: flex;
+    border: 1px solid red;
+    
+}
+.banner-content{
+/* margin-top: 80px; */
+/* margin-bottom: 0px; */
+
+}
+.banner-title{
+font-size: 65px;
+font-weight: 700;
+color: #000;
+/* padding-top: 152px; */
+
+}
+
+.banner-description{
+font-size: 22px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.50);
+/* margin-bottom: 0px; */
+
+}
+.banner-img {
+    /* margin-bottom: -5px; */
+}
+
+
+
+
+
+
+
+
+/* our plants section */
+.our-plants-section{
+
+}
+.our-plants{
+text-align: center;
+margin: 120px 150px 50px 150px;
+
+}
+.our-plants-h2{
+
+font-size: 50px;
+font-weight: 700;
+color: #000000;
+margin-bottom: 15px;
+border: 2px solid yellow;
+
+}
+.our-plants-p{
+font-size: 22px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.5);
+border: 2px solid yellow;
+
+
+     
+}
+/* cart section */
+.add-cart-section{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 15px;
+/* flex: 1; */
+}
+.add-cart{
+text-align: center;
+border: 2px solid green;
+width: 270px;
+
+}
+.add-cart-img{
+width: 100%;
+
+}.add-cart-h4{
+font-size: 22px;
+font-weight: 500;
+color: #111111;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.add-cart-h3{
+font-size: 22px;
+font-weight: 700;
+color: #111111;
+margin-bottom: 20px;
+}
+.btn-primary{
+color: #FFFFFF;
+background-color: #E95A08;
+padding: 26px 50px;
+width: 270px;
+height: 50px;
+border: none;
+/* text-align:center; */
+font-size: 16px;
+font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive part */
+@media screen and (max-width:576px) {
+    .nav-list{
+        display: none;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* add cart section */
+    .add-cart-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
