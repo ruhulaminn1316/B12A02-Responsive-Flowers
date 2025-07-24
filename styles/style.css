@@ -186,9 +186,45 @@ font-weight: 600;
 
 
 
+ /* flower plant section  */
+  .flower-plant-section{
+
+display: flex;
+margin-top: 210px;
+gap:60px;
+border: 2px solid red;
 
 
 
+  }
+.flower-plant-section-img{
+
+position: relative;
+
+}
+.flower-plant-section-text{
+margin-top: 38px;
+
+}
+.flower-li{
+font-size: 22px;
+font-weight: 400;
+color:rgba(0, 0, 0, 0.5);
+margin-top: 20px;
+
+}
+.flower-plant-h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.trusted{
+position: absolute;
+width: 50%;
+top: -120px;
+right: -90px;
+
+}
 
 
 
@@ -310,7 +346,11 @@ font-weight: 600;
 
 
     /* add cart section */
+    .our-plants-section{
+        width: 100%;
+    }
     .add-cart-section{
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        
     }
 }
