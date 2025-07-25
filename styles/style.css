@@ -344,8 +344,8 @@ padding: 190px 250px;
 
 /* footer section */
 .footer-section{
+    background-color: rgb(255, 255, 255,0.5);
 max-width: 1440px;
-background-color: #E95A08;
 border: 1px solid #0f0702;
 /* margin: 50px auto; */
 padding:50px 160px;
