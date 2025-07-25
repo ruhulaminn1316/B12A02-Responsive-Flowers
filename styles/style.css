@@ -345,10 +345,9 @@ padding: 190px 250px;
 /* footer section */
 .footer-section{
     background-color: rgb(255, 255, 255,0.5);
-max-width: 1440px;
-border: 1px solid #0f0702;
-/* margin: 50px auto; */
-padding:50px 160px;
+/* max-width: 1440px; */
+margin: 50px auto;
+max-width: 1140px;
 
 
 
@@ -356,8 +355,8 @@ padding:50px 160px;
 .footer-four-div{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 110px;
-     justify-content:start;
+    /* gap: 50px; */
+    justify-content:start;
     align-items: start;
     
 }
@@ -368,7 +367,6 @@ list-style: none;
 }
 
 .footer-div-1 {
-     border: 1px solid red;
      width: 359px;
 
 }
@@ -377,26 +375,29 @@ list-style: none;
     font-size: 22px;
     font-weight: 400;
     color:rgba(0, 0, 0, 0.50);
+    
 }
 .footer-div-2{
+    margin-left: 110px;
     font-size: 16px;
     font-weight: 400;
-     border: 1px solid red;
-     padding-bottom: 32px;
+ 
+     
     
 }
 
 .footer-div-3{
+    margin-left:65px;
      font-size: 16px;
     font-weight: 400;
-     border: 1px solid red;
    
 }
 .footer-div-4{
+    margin-left:0px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 24px;
-    border: 1px solid red;
+    
    
     
    
@@ -516,4 +517,74 @@ list-style: none;
         display: flex;
         
     }
+
+/* bonus */
+.latest-img-container{
+    display: block;
+    width: 100%;
+    margin: 20px;
+}
+.response{
+    display: block;
+}
+.Latest-Deals{
+    width: 100%;
+    
+}
+.bg-div-1, .bg-div-2, .bg-div-3{
+    width: 361px;
+    height:177px;
+}
+.join-section{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-four-div{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20px;
+}
+.footer-div-1{
+    width: 100%;
+  
+}
+.footer-div-p{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.footer-div-img{
+     width: 180px;
+    height: 109px;
+   
+}
+
+.footer-div-2 {
+    /* margin-top: 20px; */
+margin-left: 0px;
+}
+
+.footer-div-3 {
+margin-left: 0px;
+
+}
+}
+.footer-div-4{
+    grid-template-columns: repeat(4,36px);
+    /* width: 100% */
+    
+    margin-left:0px;
 }
