@@ -260,7 +260,7 @@ text-align: center;
 }
 .bg-div-3{
 
-background-image: linear-gradient(rgba(0,0,0,0.4)), url(../assets/deal-zabo.png);
+background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
 background-repeat: no-repeat;
 width: 753px;
 height: 423px;
@@ -300,21 +300,115 @@ color: #FFF;
 
 
 
+/* join section */
+.join-section{
+background-image: url(../assets/news-letter-bg.png);
+background-size:cover;
+max-width: 1440px;
+/* height: 50%; */
+margin-top: 120px;
+padding: 190px 250px;
+}
+.join-h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* padding-top: 199px; */
+}
+.input-e{
+    padding-left: 20px;
+    width: 604px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+#btn{
+    height: 50px;
+    width: 186px;
+    /* padding: 26px 50px 26px 50px; */
+    /* box-sizing: border-box; */
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: none;
+    margin-left: -5px;
+
+}
 
 
 
 
 
+/* footer section */
+.footer-section{
+max-width: 1440px;
+background-color: #E95A08;
+border: 1px solid #0f0702;
+/* margin: 50px auto; */
+padding:50px 160px;
 
 
 
+}
+.footer-four-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 110px;
+     justify-content:start;
+    align-items: start;
+    
+}
+.footer-four-div li, a{
+text-decoration: none;
+list-style: none;
+ color: #6B7280;
+}
 
+.footer-div-1 {
+     border: 1px solid red;
+     width: 359px;
 
+}
+.footer-div-p{
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.50);
+}
+.footer-div-2{
+    font-size: 16px;
+    font-weight: 400;
+     border: 1px solid red;
+     padding-bottom: 32px;
+    
+}
 
-
-
-
-
+.footer-div-3{
+     font-size: 16px;
+    font-weight: 400;
+     border: 1px solid red;
+   
+}
+.footer-div-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    border: 1px solid red;
+   
+    
+   
+}
+.footer-li{
+    margin-bottom: 32px;
+    
+}
+.twiter{
+ width: 36px;
+ height: 36px;
+}
 
 
 
