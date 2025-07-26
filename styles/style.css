@@ -490,23 +490,43 @@ padding-top: 0px;
 }
 .banner-title{
     padding-left: 16px;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 13px;
+    /* width: 350px; */
  
 }.banner-description{
     padding-left: 16px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
 
 
 
+/* our plan */
+.our-plants-section{
+    margin-top: 65px;
+    margin-left: 14px;
+}
+.our-plants{
+    margin: 0 auto;
 
+}
+.our-plants-h2{
+     font-size: 24px;
+    font-weight: 700;
 
+}
+.our-plants-p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 28px 28px 28px;
+    padding: 0px 85px;
+    
+}
 
 
 
