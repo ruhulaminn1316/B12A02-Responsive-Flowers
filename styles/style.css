@@ -34,6 +34,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-top: 24.5px;
+margin-bottom: 120px;
 }
 .nav-list{
     display: flex;
@@ -79,19 +80,20 @@ font-size: 700;
 /* bannner section */
 .banner-section{
     display: flex;
-    border: 1px solid red;
+    border: 2px solid red;
+    justify-content: space-between;align-items: stretch;
+    padding-top: 106px;
     
 }
 .banner-content{
-/* margin-top: 80px; */
-/* margin-bottom: 0px; */
+padding-top: 56px;
 
 }
 .banner-title{
 font-size: 65px;
 font-weight: 700;
 color: #000;
-/* padding-top: 152px; */
+margin-bottom: 20px;
 
 }
 
@@ -99,12 +101,10 @@ color: #000;
 font-size: 22px;
 font-weight: 400;
 color: rgba(0, 0, 0, 0.50);
-/* margin-bottom: 0px; */
+margin-bottom: 0px;
 
 }
-.banner-img {
-    /* margin-bottom: -5px; */
-}
+
 
 
 
@@ -409,6 +409,7 @@ list-style: none;
 .twiter{
  width: 36px;
  height: 36px;
+ /* border-radius: 48px; */
 }
 
 
@@ -472,10 +473,33 @@ list-style: none;
 
 /* responsive part */
 @media screen and (max-width:576px) {
-    .nav-list{
-        display: none;
+    /* NAVBER  */
+    .navbar-section{
+  margin:13PX 16PX 28PX 16PX;
+  border: 1px solid green;
     }
-    
+   .nav-list li{
+    display: none;
+   }
+ 
+/* HEADER */
+.banner-section{
+display: flex;
+flex-direction: column-reverse;
+padding-top: 0px;
+}
+.banner-title{
+    padding-left: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 13px;
+ 
+}.banner-description{
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
 
 
 
@@ -494,13 +518,17 @@ list-style: none;
 
 
 
+/* card section */
+.add-cart-section{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 40%;
+margin-left: 15px;
 
 
 
 
-
-
-
+}
 
 
 
@@ -510,36 +538,12 @@ list-style: none;
 
 
     /* add cart section */
-    .our-plants-section{
-        width: 100%;
-    }
-    .add-cart-section{
-        display: flex;
-        
-    }
-
-/* bonus */
-.latest-img-container{
-    display: block;
-    width: 100%;
-    margin: 20px;
-}
-.response{
-    display: block;
-}
-.Latest-Deals{
-    width: 100%;
-    
-}
-.bg-div-1, .bg-div-2, .bg-div-3{
-    width: 361px;
-    height:177px;
-}
+   
 .join-section{
-    width: 100%;
     
-}
+    
 
+}
 
 
 
