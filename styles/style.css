@@ -64,23 +64,9 @@ font-size: 700;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* bannner section */
 .banner-section{
     display: flex;
-    border: 2px solid red;
     justify-content: space-between;align-items: stretch;
     padding-top: 106px;
     
@@ -124,22 +110,29 @@ margin: 120px 150px 50px 150px;
 
 }
 .our-plants-h2{
-
 font-size: 50px;
 font-weight: 700;
 color: #000000;
 margin-bottom: 15px;
-border: 2px solid yellow;
+
 
 }
 .our-plants-p{
 font-size: 22px;
 font-weight: 400;
 color: rgba(0, 0, 0, 0.5);
-border: 2px solid yellow;
+
 
 
      
+}
+
+.our-plants-p-p{
+font-size: 22px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.5);
+padding: 0px 90px 70px 90px;
+
 }
 /* cart section */
 .add-cart-section{
@@ -151,7 +144,7 @@ row-gap: 30px;
 }
 .add-cart{
 text-align: center;
-border: 1px solid green;
+/* border: 1px solid green; */
 width: 270px;
 /* box-sizing: border-box; */
 
@@ -198,7 +191,7 @@ font-weight: 600;
 display: flex;
 margin-top: 210px;
 gap:60px;
-border: 2px solid red;
+/* border: 2px solid red; */
 
   }
   
@@ -232,6 +225,7 @@ right: -90px;
 }
 
 
+
 /* latest deals section */
 .latest-img-container{
 
@@ -241,7 +235,7 @@ right: -90px;
 
 }
 .bg-div-1{
-background-image: linear-gradient(rgba(0,0,0,0.4)), url(../assets/deal-bloom.png);
+background-image: linear-gradient(0deg,rgba(0,0,0,0.4) 0%, rgba(0,0,0, 0.40) 100%), url(../assets/deal-bloom.png);
 background-repeat: no-repeat;
 width: 366px;
 height: 206px;
@@ -253,7 +247,7 @@ margin-bottom: 11px;
 }
 .bg-div-2{
 
-background-image: linear-gradient(rgba(0,0,0,0.4)), url(../assets/deal-ana.png);
+background-image: linear-gradient(0deg,rgba(0,0,0,0.4) 0%, rgba(0,0,0, 0.40) 100%), url(../assets/deal-ana.png);
 background-repeat: no-repeat;
 background-size: cover;
 width: 366px;
@@ -265,7 +259,7 @@ text-align: center;
 }
 .bg-div-3{
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+background-image:  linear-gradient(0deg,rgba(0,0,0,0.4) 0%, rgba(0,0,0, 0.40) 100%), url(../assets/deal-zabo.png);
 background-repeat: no-repeat;
 width: 753px;
 height: 423px;
@@ -411,65 +405,6 @@ list-style: none;
     margin-bottom: 32px;
     
 }
-.twiter{
- width: 36px;
- height: 36px;
- /* border-radius: 48px; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -504,6 +439,7 @@ padding-top: 0px;
     padding-left: 16px;
     font-size: 21px;
     font-weight: 400;
+    padding-right: 16px;
     
     
     
@@ -521,7 +457,7 @@ padding-top: 0px;
 }
 .our-plants{
     margin: 0 auto;
-    /* width: 50%; */
+    margin-top: 140px;
 
 }
 .our-plants-h2{
@@ -533,7 +469,7 @@ padding-top: 0px;
 .our-plants-p{
     font-size: 21px;
     font-weight: 400;
-    padding:0px 28px 28px 28px;
+    padding:0px 30px 28px 30px;
  
 }
 .add-cart-section{
@@ -563,7 +499,7 @@ margin-bottom: 30px;
 
 
 
-/* flower-plant-section */
+/* Flower & Plants Lover */
 .flower-plant-section{
 
 display: flex;
@@ -576,19 +512,43 @@ margin:40px 16px 140px 16px;
 display: none;
 
 }
-
-
-
-
+.flower-plant-section-text{
+    margin-top: -30px;
+   
+}
+.flower-plant-h3{
+    font-size: 36px;
+    font-weight: 700;
+    
+    
+}
 .flower-li{
     margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400px;
    
 }
 
+/* deals section */
+.our-plants-p-p{
+font-size: 20px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.5);
+padding: 16px 60px 26px 60px;
 
+/* bonus part  */
+.latest-img-container{
+ display: grid;
+ grid-template-columns: repeat(1,1fr);
+}
+.response{
+display: flex;
+flex-direction: row;
 
-
-
+}
+.bg-div-3{
+    display: block;
+}
 
 
     /* add cart section */
@@ -644,5 +604,5 @@ margin-left: 0px;
     grid-template-columns: repeat(4,36px);
     /* width: 100% */
     
-    margin-left:0px;
+    margin-left:0px;}
 }
