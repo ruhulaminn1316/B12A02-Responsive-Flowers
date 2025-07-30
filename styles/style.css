@@ -473,7 +473,9 @@ padding-top: 0px;
     
     
 }
-
+.banner-img{
+   width: 100%;
+}
 
 /* our plan */
 .our-plants-section{
