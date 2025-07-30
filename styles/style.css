@@ -275,7 +275,7 @@ background-image:  linear-gradient(0deg,rgba(0,0,0,0.4) 0%, rgba(0,0,0, 0.40) 10
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-height: auto;
+height:auto;
 width: 753px;
 border-radius: 10px;
 display: flex;
@@ -588,7 +588,7 @@ border-radius:0;
 }
 .bg-div-3{
     /* show full screen use height: 250px; in mobile*/
-    height: 196px;
+    height: 206px;
     /* height:196px; */
     /* bg-div-3 height less 10px then div-1,div-2 in figma file  */
       /* previous two img div height-206px, if want to margin and padding (-) then height=181px and this div 173px, but use random height 1st two div 206 height and this div-196px , because figma size don't match .  */
