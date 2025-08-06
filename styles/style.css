@@ -629,8 +629,7 @@ color: rgb(255, 255, 255,1);
 margin-top: 45px;
 height: 393px;
 background-position: center;
-
-  
+/* margin:50px; */
 
 
 
@@ -644,14 +643,25 @@ color: #FFF;
 }
 
 .input-btn{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    width:calc(100% - 200px);
-    
-    
-}
+  /* display: flex;
+justify-content: center;
+align-items: center;
+width:321px; */
 
+    width: 100%;
+    padding: 0 20px; /* 👉 Left & right ফাঁকা জায়গা */
+    box-sizing: border-box;
+}
+.input-btn input{
+width: 50%;
+    /* height: 50px; */
+    /* margin: 5px 0; */
+}
+.input-btn button{
+    width: 30%;
+    /* height: 50px; */
+    /* margin: 5px 0; */
+  }
 
 /* footer */
 .footer-section{
